@@ -35,7 +35,10 @@ p { /* Sin decoracion de texto por defecto (subrallado) */
 
 /* <----------------header------------------>*/
 
-.cabecera {
+.header {
+    margin-top: none;
+}
+/* .cabecera {
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
@@ -50,9 +53,9 @@ p { /* Sin decoracion de texto por defecto (subrallado) */
     padding: 0 5%;
     box-sizing: border-box;
     transition: 1s;
-}
+} */
 
-.barraNav {
+/* .barraNav {
     list-style: none ; 
 }
 
@@ -69,15 +72,27 @@ p { /* Sin decoracion de texto por defecto (subrallado) */
 }
 
 .imgLogo {
-    height: 100px;
+    height: 15rem;
     align-self: center;
+} */
+
+.imgLogo {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
 /* <----------------body------------------> */
 
 
+.carousel-inner img{
+    width: 100%;
+    max-width: 80rem;
+    max-height: 50rem;
 
 
+/* 
 .carrusel {
     padding: 16px;
 }
@@ -109,7 +124,7 @@ p { /* Sin decoracion de texto por defecto (subrallado) */
     height: 80px;
 
 }
-
+ */
 
 .datos {
     width: 450px;
